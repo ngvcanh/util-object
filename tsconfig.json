@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "baseUrl": "./src",
+    "declaration": true,
+    "outDir": "./dist"
+  },
+  "include": [
+    "src"
+  ]
+}

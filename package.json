@@ -1,0 +1,35 @@
+{
+  "name": "@kensoni/object",
+  "version": "0.0.1",
+  "description": "Utilities handle object and array",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "./dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngvcanh/util-object.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ngvcanh/util-object/issues"
+  },
+  "homepage": "https://github.com/ngvcanh/util-object#readme",
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "keywords": [
+    "object",
+    "array",
+    "utilities"
+  ],
+  "author": "Ken Nguyen <ngvcanh2014@gmail.com> (https://kensoni.vn/)",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
